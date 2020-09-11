@@ -1,6 +1,7 @@
 from os import system, name
 from subprocess import call
 
+
 def clear():
     if name == 'nt':
         _ = system('cls')
