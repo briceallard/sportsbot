@@ -2,4 +2,4 @@
 
 import datetime
 
-year = datetime.datetime.now().year
+currentYear = datetime.datetime.now().year
