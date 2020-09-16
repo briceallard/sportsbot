@@ -1,7 +1,7 @@
 import csv
 import json
 
-def make_json_year(csvFilePath, jsonFilePath):
+def csv_to_json(csvFilePath, jsonFilePath):
     data = {}
 
     with open(csvFilePath, encoding='utf-8') as csvf:
