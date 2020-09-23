@@ -1,11 +1,8 @@
 from sportsreference.nfl.teams import Teams
-from pprint import pprint
 import sys
 
-import constants
 import menu
 import update_years as uy
-import utils
 
 if __name__ == "__main__":
 
@@ -14,5 +11,5 @@ if __name__ == "__main__":
     if selection == '1':
         uy.update_years()
     else:
-        print('Wrong Selection ...')
+        print('Invalid Selection ...')
         sys.exit()
