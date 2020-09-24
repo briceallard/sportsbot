@@ -3,6 +3,7 @@ import sys
 
 import menu
 import update_years as uy
+import update_players as up
 
 if __name__ == "__main__":
 
@@ -10,6 +11,8 @@ if __name__ == "__main__":
 
     if selection == '1':
         uy.update_years()
+    elif selection == '2':
+        up.get_player_ids()
     else:
         print('Invalid Selection ...')
         sys.exit()
